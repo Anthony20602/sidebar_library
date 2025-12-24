@@ -87,3 +87,5 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+  repository: https://github.com/Anthony20602/sidebar_library
+  issue_tracker: https://github.com/Anthony20602/sidebar_library/issues
