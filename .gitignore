@@ -1,0 +1,72 @@
+# =========================
+# Miscellaneous
+# =========================
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# =========================
+# IntelliJ / Android Studio
+# =========================
+*.iml
+*.ipr
+*.iws
+.idea/
+*.jks
+*.keystore
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+# If you want to share recommended extensions/settings instead, use:
+# .vscode/*
+# !.vscode/extensions.json
+# !.vscode/settings.json
+# !.vscode/launch.json
+# !.vscode/tasks.json
+
+# =========================
+# Flutter / Dart / Pub
+# =========================
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+coverage/
+
+# Pub lockfile:
+# - For libraries/packages: ignore it
+# - For apps: you can commit it
+pubspec.lock
+
+# Generated API docs
+**/doc/api/
+
+# iOS (rare in packages, but safe)
+**/ios/Flutter/.last_build_id
+
+# =========================
+# Symbolication / Obfuscation
+# =========================
+app.*.symbols
+app.*.map.json
+
+# =========================
+# Android build outputs (rare in packages)
+# =========================
+android/app/debug
+android/app/profile
+android/app/release
